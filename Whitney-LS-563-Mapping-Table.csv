@@ -1,0 +1,13 @@
+Source Field,Target Entity,RDF Property,Vocabulary / Namespace,Value Type (Literal/URI),Datatype / Lang Tag,Cardinality,Transformation Notes,External Linking Strategy,Example Value
+Book Title,Work,bf:title,bf (http://id.loc.gov/ontologies/bibframe/),Literal,@en,1,Normalize to title case,,The Couple Next Door
+Author,Work,bf:agent,bf (http://id.loc.gov/ontologies/bibframe/),URI,,1,,VIAF,http://viaf.org/viaf/63822062
+Publication Year,Instance,dc:date,dc (http://purl.org/dc/elements/1.1/),Literal,xsd:gYear,1,Only include year in YYYY format,,2016
+Publisher,Instance,dc:publisher,dc (http://purl.org/dc/elements/1.1/),URI,,1,,VIAF,http://viaf.org/viaf/264398567
+LCSH,Work,bf:subject,bf (http://id.loc.gov/ontologies/bibframe/),URI,,0..1,,LoC Subject Headings,http://id.loc.gov/authorities/subjects/sh2008107177
+Number of Pages,Instance,bf:extent,bf (http://id.loc.gov/ontologies/bibframe/),Literal,xsd:string,0..1,"Use ""p."" after the number of pages to match cataloging best practices",,308 p.
+Format,Instance,dc:format,dc (http://purl.org/dc/elements/1.1/),Literal,@en,1,,,Paperback
+bf:Isbn,Instance,bf:identifiedBy,bf (http://id.loc.gov/ontologies/bibframe/),URI,,,,,http://id.loc.gov/vocabulary/identifiers/isbnre
+ISBN,Instance,rdf:value,rdfs (http://www.w3.org/2000/01/rdf-schema#),Literal,xsd:integer,1,Ensure no spaces or hyphens between numbers (normalize),,9780735221109
+bf:Lccn,Instance,bf:identifiedBy,bf (http://id.loc.gov/ontologies/bibframe/),URI,,,,,http://id.loc.gov/datatypes/identifiers/lccn-normalized
+LCCN,Instance,rdf:value,rdfs (http://www.w3.org/2000/01/rdf-schema#),Literal,xsd:integer,0..1,Ensure no spaces or hyphens between numbers (normalize),,2016017668
+Price in USD,Instance,bf:acquisitionTerms,bf (http://id.loc.gov/ontologies/bibframe/),Literal,xsd:decimal,0..1,Normalize format with dollar sign and two decimal points,,$16.00

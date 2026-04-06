@@ -1,0 +1,1153 @@
+@prefix : <http://example.com/> .
+@prefix schema: <http://schema.org/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <https://www.wikidata.org/entity/> .
+@prefix lcsh: <http://id.loc.gov/authorities/subjects/> .
+@prefix viaf: <https://viaf.org/en/viaf/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+_:b0    bf:identifiedBy      _:b1 ;
+        bf:identifiedBy      _:b2 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "346 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$16.99"^^<decimal> ;
+        bf:publisher         wd:Q126808354 ;
+        rdf:type             bf:Instance .
+
+:10     bf:hasInstance  _:b3 ;
+        bf:agent        viaf:160742544 ;
+        bf:title        "I Have Some Questions For You"@en ;
+        rdf:type        bf:Work .
+
+_:b4    rdf:value  "9781250847652"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:31     bf:hasInstance  _:b5 ;
+        bf:agent        viaf:7146331835118691130 ;
+        bf:title        "Little Eve"@en ;
+        rdf:type        bf:Work .
+
+_:b6    rdf:value  "9798989173020"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b7    rdf:value  "2020001235"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b8    bf:identifiedBy      _:b9 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "306 p."^^<string> ;
+        dc:date              "2017"^^<gYear> ;
+        bf:acquisitionTerms  "$25.99"^^<decimal> ;
+        bf:publisher         wd:Q29644312 ;
+        rdf:type             bf:Instance .
+
+viaf:91678191  rdf:type  bf:Person .
+
+_:b10   bf:identifiedBy      _:b11 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "326 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$16.99"^^<decimal> ;
+        bf:publisher         wd:Q612938 ;
+        rdf:type             bf:Instance .
+
+_:b12   bf:identifiedBy      _:b13 ;
+        bf:identifiedBy      _:b14 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "420 p."^^<string> ;
+        dc:date              "2008"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:157411453 ;
+        rdf:type             bf:Instance .
+
+viaf:47160362841963502246
+        rdf:type  bf:Organization .
+
+_:b15   rdf:value  "2015038893"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b16   rdf:value  "9780307588371"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:23     bf:hasInstance  _:b17 ;
+        bf:agent        viaf:311830132 ;
+        bf:title        "Hostage"@en ;
+        rdf:type        bf:Work .
+
+_:b18   rdf:value  "9781668020937"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:44     bf:hasInstance  _:b19 ;
+        bf:agent        viaf:22148207962500342991 ;
+        bf:title        "Notes on an Execution"@en ;
+        rdf:type        bf:Work .
+
+viaf:4163873736145720786
+        rdf:type  bf:Person .
+
+_:b20   rdf:value  "9780143123231"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:5      bf:hasInstance  _:b21 ;
+        bf:agent        viaf:103168327 ;
+        bf:title        "Gone Girl"@en ;
+        rdf:type        bf:Work .
+
+_:b22   bf:identifiedBy      _:b23 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "322 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$28.00"^^<decimal> ;
+        bf:publisher         wd:Q125890437 ;
+        rdf:type             bf:Instance .
+
+_:b24   bf:identifiedBy      _:b25 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "466 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$28.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+viaf:313089493  rdf:type  bf:Organization .
+
+wd:Q125890437  rdf:type  bf:Organization .
+
+_:b26   rdf:value  "2013022511"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:171175917  rdf:type  bf:Person .
+
+:15     bf:hasInstance  _:b27 ;
+        bf:agent        viaf:61341380 ;
+        bf:title        "White Horse"@en ;
+        rdf:type        bf:Work .
+
+_:b28   rdf:value  "9781250803825"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:36     bf:hasInstance  _:b29 ;
+        bf:agent        viaf:311459554 ;
+        bf:title        "Hiding Lies"@en ;
+        rdf:type        bf:Work .
+
+_:b30   rdf:value  "9781982136352"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+viaf:67749665  rdf:type  bf:Person .
+
+viaf:5391164721401702340007
+        rdf:type  bf:Person .
+
+_:b31   bf:identifiedBy  _:b32 ;
+        bf:identifiedBy  _:b33 ;
+        dc:format        "Ebook"@en ;
+        dc:date          "2020"^^<gYear> ;
+        bf:publisher     viaf:264398567 ;
+        rdf:type         bf:Instance .
+
+viaf:16161512043170561686
+        rdf:type  bf:Person .
+
+viaf:266361763  rdf:type  bf:Person .
+
+_:b34   bf:identifiedBy      _:b35 ;
+        bf:identifiedBy      _:b36 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "319 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$27.00"^^<decimal> ;
+        bf:publisher         wd:Q126808354 ;
+        rdf:type             bf:Instance .
+
+viaf:317171001  rdf:type  bf:Person .
+
+_:b37   bf:identifiedBy      _:b38 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "402 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$16.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+wd:Q612938  rdf:type  bf:Organization .
+
+_:b39   rdf:value  "9781728209159"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:28     bf:hasInstance  _:b40 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh99000164> ;
+        bf:agent        viaf:37165265366710192995 ;
+        bf:title        "The Cloisters"@en ;
+        rdf:type        bf:Work .
+
+viaf:4672609  rdf:type  bf:Person .
+
+_:b41   rdf:value  "9780593100066"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:49     bf:hasInstance  _:b42 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107201> ;
+        bf:agent        viaf:91678191 ;
+        bf:title        "The Silent Wife"@en ;
+        rdf:type        bf:Work .
+
+_:b43   bf:identifiedBy      _:b44 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "290 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         viaf:134878895 ;
+        rdf:type             bf:Instance .
+
+_:b45   bf:identifiedBy      _:b46 ;
+        bf:identifiedBy      _:b47 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "278 p."^^<string> ;
+        dc:date              "2018"^^<gYear> ;
+        bf:acquisitionTerms  "$17.00"^^<decimal> ;
+        bf:publisher         wd:Q7190491 ;
+        rdf:type             bf:Instance .
+
+wd:Q54958384  rdf:type  bf:Organization .
+
+viaf:304057378  rdf:type  bf:Person .
+
+_:b48   rdf:value  "2021935941"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+wd:Q126808354  rdf:type  bf:Organization .
+
+_:b49   rdf:value  "2022014704"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b9    rdf:value  "9781250111173"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:20     bf:hasInstance  _:b50 ;
+        bf:agent        viaf:5391164721401702340007 ;
+        bf:title        "A Flicker in the Dark"@en ;
+        rdf:type        bf:Work .
+
+_:b51   rdf:value  "9781250880314"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:41     bf:hasInstance  _:b52 ;
+        bf:agent        viaf:16161512043170561686 ;
+        bf:title        "Mirrorland"@en ;
+        rdf:type        bf:Work .
+
+_:b53   rdf:value  "9780143110521"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:2      bf:hasInstance  _:b8 ;
+        bf:agent        viaf:4672609 ;
+        bf:title        "Behind Her Eyes"@en ;
+        rdf:type        bf:Work .
+
+viaf:8885155044845872520006
+        rdf:type  bf:Organization .
+
+_:b3    bf:identifiedBy      _:b54 ;
+        bf:identifiedBy      _:b55 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "438 p."^^<string> ;
+        dc:date              "2023"^^<gYear> ;
+        bf:acquisitionTerms  "$28.00"^^<decimal> ;
+        bf:publisher         wd:Q921536 ;
+        rdf:type             bf:Instance .
+
+_:b5    bf:identifiedBy      _:b56 ;
+        bf:identifiedBy      _:b57 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "271 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$17.99"^^<decimal> ;
+        bf:publisher         wd:Q123335232 ;
+        rdf:type             bf:Instance .
+
+_:b58   rdf:value  "2020046349"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b59   rdf:value  "9781982199456"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:12     bf:hasInstance  _:b60 ;
+        bf:agent        viaf:171175917 ;
+        bf:title        "After She Wrote Him"@en ;
+        rdf:type        bf:Work .
+
+viaf:5451154983548567860002
+        rdf:type  bf:Organization .
+
+:33     bf:hasInstance  _:b61 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh93000062> ;
+        bf:agent        viaf:57156563481723241294 ;
+        bf:title        "Darling Rose Gold"@en ;
+        rdf:type        bf:Work .
+
+_:b62   rdf:value  "9780062870148"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+viaf:4319147665873160670003
+        rdf:type  bf:Person .
+
+_:b63   rdf:value  "2016017668"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b64   bf:identifiedBy  _:b65 ;
+        bf:identifiedBy  _:b66 ;
+        dc:format        "Ebook"@en ;
+        dc:date          "2021"^^<gYear> ;
+        bf:publisher     viaf:140683811 ;
+        rdf:type         bf:Instance .
+
+_:b17   bf:identifiedBy      _:b67 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "355 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$26.99"^^<decimal> ;
+        bf:publisher         viaf:8885155044845872520006 ;
+        rdf:type             bf:Instance .
+
+_:b19   bf:identifiedBy      _:b68 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "306 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+_:b69   rdf:value  "2020054067"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:157411453  rdf:type  bf:Organization .
+
+wd:Q123335232  rdf:type  bf:Organization .
+
+viaf:283944189  rdf:type  bf:Person .
+
+_:b33   rdf:value  "9780525559740"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111435>
+        rdf:type  bf:Topic .
+
+:25     bf:hasInstance  _:b70 ;
+        bf:agent        viaf:303231117 ;
+        bf:title        "Listen for the Lie"@en ;
+        rdf:type        bf:Work .
+
+viaf:93152682495023310240
+        rdf:type  bf:Person .
+
+_:b71   rdf:value  "9781101990476"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:46     bf:hasInstance  _:b72 ;
+        bf:agent        viaf:283944189 ;
+        bf:title        "The Poison Garden"@en ;
+        rdf:type        bf:Work .
+
+:7      bf:hasInstance  _:b31 ;
+        bf:agent        viaf:106556334 ;
+        bf:title        "Bunny"@en ;
+        rdf:type        bf:Work .
+
+viaf:22148207962500342991
+        rdf:type  bf:Person .
+
+_:b27   bf:identifiedBy      _:b4 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "309 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         wd:Q29644312 ;
+        rdf:type             bf:Instance .
+
+viaf:142395924  rdf:type  bf:Organization .
+
+_:b29   bf:identifiedBy      _:b6 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "236 p."^^<string> ;
+        dc:date              "2024"^^<gYear> ;
+        bf:acquisitionTerms  "$18.99"^^<decimal> ;
+        bf:publisher         wd:Q138711331 ;
+        rdf:type             bf:Instance .
+
+viaf:52991939  rdf:type  bf:Person .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh93000062>
+        rdf:type  bf:Topic .
+
+:17     bf:hasInstance  _:b73 ;
+        bf:agent        viaf:315167803794817772370 ;
+        bf:title        "The Writing Retreat"@en ;
+        rdf:type        bf:Work .
+
+_:b74   rdf:value  "9781662508325"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:38     bf:hasInstance  _:b75 ;
+        bf:agent        viaf:317171001 ;
+        bf:title        "I Know You Know"@en ;
+        rdf:type        bf:Work .
+
+_:b76   rdf:value  "9780865478169"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+viaf:3189068  rdf:type  bf:Person .
+
+viaf:311459554  rdf:type  bf:Person .
+
+_:b77   rdf:value  "2020033063"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b78   bf:identifiedBy      _:b79 ;
+        bf:identifiedBy      _:b80 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "358 p."^^<string> ;
+        dc:date              "2017"^^<gYear> ;
+        bf:acquisitionTerms  "$17.99"^^<decimal> ;
+        bf:publisher         wd:Q29644312 ;
+        rdf:type             bf:Instance .
+
+_:b40   bf:identifiedBy      _:b81 ;
+        bf:identifiedBy      _:b18 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "312 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$28.00"^^<decimal> ;
+        bf:publisher         wd:Q97773252 ;
+        rdf:type             bf:Instance .
+
+_:b42   bf:identifiedBy      _:b82 ;
+        bf:identifiedBy      _:b20 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "326 p."^^<string> ;
+        dc:date              "2013"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:264398567 ;
+        rdf:type             bf:Instance .
+
+wd:Q105683399  rdf:type  bf:Organization .
+
+wd:Q138711342  rdf:type  bf:Organization .
+
+_:b83   rdf:value  "9780062868930"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:30     bf:hasInstance  _:b84 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008103513> ;
+        bf:agent        viaf:4319147665873160670003 ;
+        bf:title        "The Widow"@en ;
+        rdf:type        bf:Work .
+
+viaf:26158367710001281325
+        rdf:type  bf:Organization .
+
+viaf:138445030  rdf:type  bf:Organization .
+
+_:b85   rdf:value  "9780063030145"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b86   bf:identifiedBy      _:b7 ;
+        bf:identifiedBy      _:b87 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "308 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         wd:Q29644312 ;
+        rdf:type             bf:Instance .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh85056746>
+        rdf:type  bf:Topic .
+
+_:b50   bf:identifiedBy      _:b28 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "357 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         viaf:72149365996485600526 ;
+        rdf:type             bf:Instance .
+
+viaf:142147423158144881827
+        rdf:type  bf:Person .
+
+_:b52   bf:identifiedBy      _:b30 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "307 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$27.00"^^<decimal> ;
+        bf:publisher         viaf:121555288 ;
+        rdf:type             bf:Instance .
+
+wd:Q97773252  rdf:type  bf:Organization .
+
+_:b1    rdf:value  "2020016876"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:22151654665108280719
+        rdf:type  bf:Person .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh85075301>
+        rdf:type  bf:Topic .
+
+_:b66   rdf:value  "9781250174659"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:22     bf:hasInstance  _:b88 ;
+        bf:agent        viaf:20163629032823462947 ;
+        bf:title        "Not What She Seems"@en ;
+        rdf:type        bf:Work .
+
+_:b89   rdf:value  "9780316242509"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:43     bf:hasInstance  _:b90 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008113420> ;
+        bf:agent        viaf:304057378 ;
+        bf:title        "The Night Guest"@en ;
+        rdf:type        bf:Work .
+
+_:b91   rdf:value  "9780593534649"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:4      bf:hasInstance  _:b64 ;
+        bf:agent        viaf:75149617064103752411 ;
+        bf:title        "The Echo Wife"@en ;
+        rdf:type        bf:Work .
+
+viaf:57156563481723241294
+        rdf:type  bf:Person .
+
+viaf:37165265366710192995
+        rdf:type  bf:Person .
+
+viaf:9151431549656301200
+        rdf:type  bf:Person .
+
+_:b60   bf:identifiedBy      _:b39 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "231 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$16.99"^^<decimal> ;
+        bf:publisher         viaf:5451154983548567860002 ;
+        rdf:type             bf:Instance .
+
+viaf:130158185870120062456
+        rdf:type  bf:Person .
+
+viaf:134878895  rdf:type  bf:Organization .
+
+_:b61   bf:identifiedBy      _:b92 ;
+        bf:identifiedBy      _:b41 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "311 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$26.00"^^<decimal> ;
+        bf:publisher         viaf:157411453 ;
+        rdf:type             bf:Instance .
+
+viaf:11159610199740540339
+        rdf:type  bf:Person .
+
+_:b13   rdf:value  "2006024710"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:24149912666006212810
+        rdf:type  bf:Person .
+
+:14     bf:hasInstance  _:b93 ;
+        bf:agent        viaf:67749665 ;
+        bf:title        "The Guest List"@en ;
+        rdf:type        bf:Work .
+
+_:b94   rdf:value  "9780593310939"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008103513>
+        rdf:type  bf:Topic .
+
+:35     bf:hasInstance  _:b95 ;
+        bf:agent        viaf:130158185870120062456 ;
+        bf:title        "The Girl in the Mirror"@en ;
+        rdf:type        bf:Work .
+
+_:b96   rdf:value  "9780399184260"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+wd:Q6933993  rdf:type  bf:Organization .
+
+_:b97   bf:identifiedBy      _:b98 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "260 p."^^<string> ;
+        dc:date              "2016"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:264398567 ;
+        rdf:type             bf:Instance .
+
+wd:Q921536  rdf:type  bf:Organization .
+
+viaf:6397169829187337320008
+        rdf:type  bf:Person .
+
+_:b70   bf:identifiedBy      _:b99 ;
+        bf:identifiedBy      _:b51 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "336 p."^^<string> ;
+        dc:date              "2024"^^<gYear> ;
+        bf:acquisitionTerms  "$26.99"^^<decimal> ;
+        bf:publisher         wd:Q125890437 ;
+        rdf:type             bf:Instance .
+
+viaf:7726148705724037080004
+        rdf:type  bf:Person .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107201>
+        rdf:type  bf:Topic .
+
+_:b72   bf:identifiedBy      _:b100 ;
+        bf:identifiedBy      _:b53 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "391 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:264398567 ;
+        rdf:type             bf:Instance .
+
+viaf:705150323797809970378
+        rdf:type  bf:Person .
+
+viaf:20163629032823462947
+        rdf:type  bf:Person .
+
+viaf:121555288  rdf:type  bf:Organization .
+
+_:b101  rdf:value  "9781982163853"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b80   rdf:value  "9781250095299"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:27     bf:hasInstance  _:b102 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111400> ;
+        bf:agent        viaf:9151431549656301200 ;
+        bf:title        "Getaway"@en ;
+        rdf:type        bf:Work .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008100489>
+        rdf:type  bf:Topic .
+
+_:b103  rdf:value  "9780593296134"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:48     bf:hasInstance  _:b104 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111435> ;
+        bf:agent        viaf:4163873736145720786 ;
+        bf:title        "The Quiet Tenant"@en ;
+        rdf:type        bf:Work .
+
+viaf:315167803794817772370
+        rdf:type  bf:Person .
+
+:9      bf:hasInstance  _:b78 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008100489> ;
+        bf:agent        viaf:705150323797809970378 ;
+        bf:title        "If We Were Villains"@en ;
+        rdf:type        bf:Work .
+
+_:b73   bf:identifiedBy      _:b59 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "313 p."^^<string> ;
+        dc:date              "2023"^^<gYear> ;
+        bf:acquisitionTerms  "$27.00"^^<decimal> ;
+        bf:publisher         wd:Q97773252 ;
+        rdf:type             bf:Instance .
+
+viaf:264398567  rdf:type  bf:Organization .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107761>
+        rdf:type  bf:Topic .
+
+_:b75   bf:identifiedBy      _:b62 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "352 p."^^<string> ;
+        dc:date              "2018"^^<gYear> ;
+        bf:acquisitionTerms  "$18.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+_:b35   rdf:value  "2020008251"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+wd:Q138711331  rdf:type  bf:Organization .
+
+_:b87   rdf:value  "9781250266071"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:19     bf:hasInstance  _:b105 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh85075301> ;
+        bf:agent        viaf:22151654665108280719 ;
+        bf:title        "While Justice Sleeps"@en ;
+        rdf:type        bf:Work .
+
+_:b106  rdf:value  "9781613163771"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:40     bf:hasInstance  _:b107 ;
+        bf:agent        viaf:7726148705724037080004 ;
+        bf:title        "Maestra"@en ;
+        rdf:type        bf:Work .
+
+_:b108  rdf:value  "9781250244147"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:1      bf:hasInstance  _:b86 ;
+        bf:agent        viaf:24149912666006212810 ;
+        bf:title        "His and Hers"@en ;
+        rdf:type        bf:Work .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107177>
+        rdf:type  bf:Topic .
+
+viaf:61341380  rdf:type  bf:Person .
+
+viaf:156083766  rdf:type  bf:Organization .
+
+viaf:79569611  rdf:type  bf:Person .
+
+_:b84   bf:identifiedBy      _:b15 ;
+        bf:identifiedBy      _:b71 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "344 p."^^<string> ;
+        dc:date              "2016"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:157411453 ;
+        rdf:type             bf:Instance .
+
+_:b46   rdf:value  "2017038361"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111400>
+        rdf:type  bf:Topic .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2007102098>
+        rdf:type  bf:Topic .
+
+_:b109  rdf:value  "9781542017794"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:11     bf:hasInstance  _:b110 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008103513> ;
+        bf:agent        viaf:21152682483423310836 ;
+        bf:title        "The Family Plot"@en ;
+        rdf:type        bf:Work .
+
+wd:Q29644312  rdf:type  bf:Organization .
+
+:32     bf:hasInstance  _:b111 ;
+        bf:agent        viaf:7160422822568030126 ;
+        bf:title        "The Damage"@en ;
+        rdf:type        bf:Work .
+
+_:b112  rdf:value  "9780593101131"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b113  bf:identifiedBy      _:b63 ;
+        bf:identifiedBy      _:b114 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "308 p."^^<string> ;
+        dc:date              "2016"^^<gYear> ;
+        bf:acquisitionTerms  "$16.00"^^<decimal> ;
+        bf:publisher         viaf:264398567 ;
+        rdf:type             bf:Instance .
+
+_:b88   bf:identifiedBy  _:b74 ;
+        dc:format        "Ebook"@en ;
+        dc:date          "2024"^^<gYear> ;
+        bf:publisher     wd:Q138711342 ;
+        rdf:type         bf:Instance .
+
+_:b90   bf:identifiedBy      _:b26 ;
+        bf:identifiedBy      _:b76 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "241 p."^^<string> ;
+        dc:date              "2013"^^<gYear> ;
+        bf:acquisitionTerms  "$14.00"^^<decimal> ;
+        bf:publisher         viaf:156083766 ;
+        rdf:type             bf:Instance .
+
+_:b54   rdf:value  "2022032713"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+wd:Q7190491  rdf:type  bf:Organization .
+
+viaf:5151533653702770109
+        rdf:type  bf:Person .
+
+_:b56   rdf:value  "2022011403"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh99000164>
+        rdf:type  bf:Topic .
+
+viaf:140683811  rdf:type  bf:Organization .
+
+wd:Q4972414  rdf:type  bf:Organization .
+
+_:b98   rdf:value  "9780143128755"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:24     bf:hasInstance  _:b115 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2007102098> ;
+        bf:agent        viaf:6397169829187337320008 ;
+        bf:title        "Death of a Bookseller"@en ;
+        rdf:type        bf:Work .
+
+_:b2    rdf:value  "9781982127619"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:45     bf:hasInstance  _:b116 ;
+        bf:agent        viaf:3169375621724282983 ;
+        bf:title        "Once There Were Wolves"@en ;
+        rdf:type        bf:Work .
+
+:6      bf:hasInstance  _:b97 ;
+        bf:agent        viaf:313296794 ;
+        bf:title        "Eileen"@en ;
+        rdf:type        bf:Work .
+
+_:b93   bf:identifiedBy      _:b83 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "313 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008113420>
+        rdf:type  bf:Topic .
+
+_:b95   bf:identifiedBy      _:b85 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "296 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         viaf:313089493 ;
+        rdf:type             bf:Instance .
+
+viaf:63822062  rdf:type  bf:Person .
+
+viaf:7146331835118691130
+        rdf:type  bf:Person .
+
+:16     bf:hasInstance  _:b117 ;
+        bf:agent        viaf:266361763 ;
+        bf:title        "Opium and Absinthe"@en ;
+        rdf:type        bf:Work .
+
+_:b11   rdf:value  "9781525811579"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:37     bf:hasInstance  _:b118 ;
+        bf:agent        viaf:5151533653702770109 ;
+        bf:title        "The Hunting Wives"@en ;
+        rdf:type        bf:Work .
+
+_:b14   rdf:value  "9780425219256"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b32   rdf:value  "2018048708"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b119  bf:identifiedBy      _:b77 ;
+        bf:identifiedBy      _:b120 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "254 p."^^<string> ;
+        dc:date              "2020"^^<gYear> ;
+        bf:acquisitionTerms  "$18.00"^^<decimal> ;
+        bf:publisher         wd:Q54958384 ;
+        rdf:type             bf:Instance .
+
+_:b102  bf:identifiedBy      _:b48 ;
+        bf:identifiedBy      _:b89 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "342 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$28.00"^^<decimal> ;
+        bf:publisher         wd:Q6933993 ;
+        rdf:type             bf:Instance .
+
+_:b104  bf:identifiedBy      _:b49 ;
+        bf:identifiedBy      _:b91 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "303 p."^^<string> ;
+        dc:date              "2023"^^<gYear> ;
+        bf:acquisitionTerms  "$28.00"^^<decimal> ;
+        bf:publisher         viaf:142395924 ;
+        rdf:type             bf:Instance .
+
+viaf:11155343960006312646
+        rdf:type  bf:Person .
+
+_:b23   rdf:value  "9781250790767"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:29     bf:hasInstance  _:b0 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107761> ;
+        bf:agent        viaf:2866149845000402960006 ;
+        bf:title        "The Butterfly House"@en ;
+        rdf:type        bf:Work .
+
+_:b25   rdf:value  "9780062931122"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b121  bf:identifiedBy      _:b122 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "291 p."^^<string> ;
+        dc:date              "2019"^^<gYear> ;
+        bf:acquisitionTerms  "$17.00"^^<decimal> ;
+        bf:publisher         viaf:138445030 ;
+        rdf:type             bf:Instance .
+
+viaf:75149617064103752411
+        rdf:type  bf:Person .
+
+viaf:103168327  rdf:type  bf:Person .
+
+_:b105  bf:identifiedBy      _:b58 ;
+        bf:identifiedBy      _:b94 ;
+        dc:format            "Trade Paperback"@en ;
+        bf:extent            "462 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$17.00"^^<decimal> ;
+        bf:publisher         viaf:105158669993527202417 ;
+        rdf:type             bf:Instance .
+
+viaf:108025357  rdf:type  bf:Person .
+
+_:b107  bf:identifiedBy      _:b96 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "309 p."^^<string> ;
+        dc:date              "2016"^^<gYear> ;
+        bf:acquisitionTerms  "$27.00"^^<decimal> ;
+        bf:publisher         viaf:295600056 ;
+        rdf:type             bf:Instance .
+
+_:b81   rdf:value  "2022020496"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:2783161098966029640002
+        rdf:type  bf:Person .
+
+_:b82   rdf:value  "2013000993"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b114  rdf:value  "9780735221109"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:21     bf:hasInstance  _:b10 ;
+        bf:agent        viaf:142147423158144881827 ;
+        bf:title        "An Honest Lie"@en ;
+        rdf:type        bf:Work .
+
+_:b36   rdf:value  "9781982153922"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:42     bf:hasInstance  _:b12 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh85056746> ;
+        bf:agent        viaf:52991939 ;
+        bf:title        "Mistress of the Art of Death"@en ;
+        rdf:type        bf:Work .
+
+_:b38   rdf:value  "9781643858142"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:3      bf:hasInstance  _:b113 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008107177> ;
+        bf:agent        viaf:63822062 ;
+        bf:title        "The Couple Next Door"@en ;
+        rdf:type        bf:Work .
+
+_:b110  bf:identifiedBy      _:b69 ;
+        bf:identifiedBy      _:b101 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "309 p."^^<string> ;
+        dc:date              "2022"^^<gYear> ;
+        bf:acquisitionTerms  "$17.00"^^<decimal> ;
+        bf:publisher         viaf:47160362841963502246 ;
+        rdf:type             bf:Instance .
+
+_:b111  bf:identifiedBy      _:b103 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "390 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$27.00"^^<decimal> ;
+        bf:publisher         wd:Q127162087 ;
+        rdf:type             bf:Instance .
+
+viaf:160742544  rdf:type  bf:Person .
+
+:13     bf:hasInstance  _:b22 ;
+        bf:agent        viaf:3189068 ;
+        bf:title        "The Plot"@en ;
+        rdf:type        bf:Work .
+
+_:b44   rdf:value  "9781250245496"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:34     bf:hasInstance  _:b24 ;
+        bf:agent        viaf:11155343960006312646 ;
+        bf:title        "The Eighth Girl"@en ;
+        rdf:type        bf:Work .
+
+_:b47   rdf:value  "9781250214935"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b65   rdf:value  "2020042347"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b21   bf:identifiedBy      _:b16 ;
+        dc:format            "Paperback"@en ;
+        bf:extent            "422 p."^^<string> ;
+        dc:date              "2012"^^<gYear> ;
+        bf:acquisitionTerms  "$15.00"^^<decimal> ;
+        bf:publisher         wd:Q4972414 ;
+        rdf:type             bf:Instance .
+
+viaf:303231117  rdf:type  bf:Person .
+
+viaf:106556334  rdf:type  bf:Person .
+
+viaf:295600056  rdf:type  bf:Organization .
+
+_:b115  bf:identifiedBy      _:b106 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "368 p."^^<string> ;
+        dc:date              "2023"^^<gYear> ;
+        bf:acquisitionTerms  "$26.95"^^<decimal> ;
+        bf:publisher         viaf:26158367710001281325 ;
+        rdf:type             bf:Instance .
+
+_:b116  bf:identifiedBy      _:b108 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "258 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$27.99"^^<decimal> ;
+        bf:publisher         wd:Q29644312 ;
+        rdf:type             bf:Instance .
+
+_:b92   rdf:value  "2019033241"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:187276092  rdf:type  bf:Person .
+
+_:b55   rdf:value  "9780593490143"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b120  rdf:value  "9781951213435"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:26     bf:hasInstance  _:b34 ;
+        bf:agent        viaf:79569611 ;
+        bf:title        "The Drowning Kind"@en ;
+        rdf:type        bf:Work .
+
+_:b57   rdf:value  "9781250879028"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+viaf:7160422822568030126
+        rdf:type  bf:Person .
+
+wd:Q127162087  rdf:type  bf:Organization .
+
+:47     bf:hasInstance  _:b37 ;
+        bf:agent        viaf:2783161098966029640002 ;
+        bf:title        "Pretty Little Wife"@en ;
+        rdf:type        bf:Work .
+
+:8      bf:hasInstance  _:b119 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008120988> ;
+        bf:agent        viaf:11159610199740540339 ;
+        bf:title        "A Certain Hunger"@en ;
+        rdf:type        bf:Work .
+
+viaf:105158669993527202417
+        rdf:type  bf:Organization .
+
+_:b117  bf:identifiedBy  _:b109 ;
+        dc:format        "Paperback"@en ;
+        bf:extent        "368 p."^^<string> ;
+        dc:date          "2020"^^<gYear> ;
+        bf:publisher     wd:Q105683399 ;
+        rdf:type         bf:Instance .
+
+viaf:72149365996485600526
+        rdf:type  bf:Organization .
+
+viaf:313296794  rdf:type  bf:Person .
+
+_:b118  bf:identifiedBy      _:b112 ;
+        dc:format            "Hardcover"@en ;
+        bf:extent            "356 p."^^<string> ;
+        dc:date              "2021"^^<gYear> ;
+        bf:acquisitionTerms  "$26.00"^^<decimal> ;
+        bf:publisher         viaf:157411453 ;
+        rdf:type             bf:Instance .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111549>
+        rdf:type  bf:Topic .
+
+_:b99   rdf:value  "2022917428"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+viaf:311830132  rdf:type  bf:Person .
+
+_:b100  rdf:value  "2019022501"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+_:b122  rdf:value  "9781524761028"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+:18     bf:hasInstance  _:b43 ;
+        bf:agent        viaf:108025357 ;
+        bf:title        "The Wife Upstairs"@en ;
+        rdf:type        bf:Work .
+
+_:b67   rdf:value  "9781728245522"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+<http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008120988>
+        rdf:type  bf:Topic .
+
+viaf:21152682483423310836
+        rdf:type  bf:Person .
+
+:39     bf:hasInstance  _:b45 ;
+        bf:subject      <http://id.loc.gov/authorities/subjects/http://id.loc.gov/authorities/subjects/sh2008111549> ;
+        bf:agent        viaf:187276092 ;
+        bf:title        "Our Kind of Cruelty"@en ;
+        rdf:type        bf:Work .
+
+_:b68   rdf:value  "9780063052734"^^xsd:integer ;
+        rdf:type   bf:Isbn .
+
+_:b79   rdf:value  "2017288580"^^xsd:integer ;
+        rdf:type   bf:Lccn .
+
+:0      bf:hasInstance  _:b121 ;
+        bf:agent        viaf:93152682495023310240 ;
+        bf:title        "The Hiding Place"@en ;
+        rdf:type        bf:Work .
+
+viaf:2866149845000402960006
+        rdf:type  bf:Person .
+
+viaf:3169375621724282983
+        rdf:type  bf:Person .
